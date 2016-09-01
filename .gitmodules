@@ -10,3 +10,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git@github.com:majutsushi/tagbar.git
+[submodule "bundle/splitjoin.vim"]
+	path = bundle/splitjoin.vim
+	url = git@github.com:AndrewRadev/splitjoin.vim.git
