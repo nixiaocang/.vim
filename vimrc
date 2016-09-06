@@ -33,3 +33,4 @@ set backspace=indent,eol,start
 autocmd FileType python setlocal completeopt-=preview
 nmap <F8> :TagbarToggle<CR>
 let mapleader = "\<Space>"
+set clipboard=unnamed
