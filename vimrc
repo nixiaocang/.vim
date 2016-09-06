@@ -4,7 +4,7 @@ filetype plugin indent on
 set go=
 color desert
 set background=dark
-set nu
+set number
 set cindent
 set expandtab
 set tabstop=4
@@ -34,3 +34,5 @@ autocmd FileType python setlocal completeopt-=preview
 nmap <F8> :TagbarToggle<CR>
 let mapleader = "\<Space>"
 set clipboard=unnamed
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
