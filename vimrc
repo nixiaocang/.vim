@@ -36,3 +36,6 @@ let mapleader = "\<Space>"
 set clipboard=unnamed
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let g:airline_powerline_fonts = 1
+set t_Co=256
+set laststatus=2
